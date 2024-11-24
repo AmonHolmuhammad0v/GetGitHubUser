@@ -1,0 +1,56 @@
+.aboutuser {
+   border-radius: 6px;
+   background: #fff;
+   color: #3f3f3f;
+   display: flex;
+   max-width: 307px;
+   width: 100%;
+   padding: 13px 32px;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   margin: 0px auto;
+ }
+
+ .aboutuser__btn {
+   background: #3F3F3F;
+   color:#fff;
+   padding: 9px 15px;
+   border-radius: 6px;
+   font-size: 14px;
+   font-weight: 300;
+   margin-top: 3px;
+ }
+
+ .aboutuser__img {
+   display: flex; 
+   flex-direction: column;
+ }
+
+ .aboutuser__info {
+   display: flex;
+   gap: 3px;
+ }
+
+ .aboutuser__numbers {
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 120%;
+ }
+
+ .aboutuser__main {
+   font-size: 14px;
+   line-height: 120%;
+   font-weight: 600;
+ }
+
+ .aboutuser__mainInfo {
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+ }
+
+ .aboutuser__name {
+   font-weight: 700;
+   font-size: 14px;
+ }

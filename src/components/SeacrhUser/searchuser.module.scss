@@ -1,0 +1,34 @@
+
+
+.entering {
+    // display: block;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    
+    &__input {
+        border-radius: 4px;
+        padding: 10px 20px;
+        background: #fff;
+        color: #000;
+        width: 100%;
+        max-width: 585px;
+        
+        &::placeholder {
+            color: #C2C2C5;
+
+        }
+    }
+
+    &__btn {
+        border-radius: 4px;
+        background: #3F3F3F;
+        padding: 10px;
+        
+    }
+}
+
+

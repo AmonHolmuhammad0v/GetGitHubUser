@@ -1,0 +1,43 @@
+.usersitem {
+    background: #fff;
+    color: #000;
+    max-width: 585px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    
+    &__info {
+
+    }
+    
+    &__btn {
+        background: #3F3F3F;
+        color:#fff;
+        padding: 9px 15px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 300;
+        // max-height: 35px;
+        // height: 100%;
+    }
+    
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 120%;  
+    }
+    
+    &__mainInfo {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+    }
+
+    &__subInfo {
+        padding-top: 8px;
+    }
+}
